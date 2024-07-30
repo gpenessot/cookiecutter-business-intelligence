@@ -59,12 +59,12 @@ starts with installing Cookiecutter. This is best done by creating a new
 virtual environment specifically for cookiecutter and then installing
 cookiecutter using `pip`. The example below shows how to do this.
 
-```console
+.. code-block:: console
 $ python -m venv ccvenv --prompt cc
 $ source ccvenv/bin/activate
 (cc) $ pip install pip -U  # update pip to avoid any warnings
 (cc) $ pip install cookiecutter
-```
+
 
 You are now ready to create a new Python project from the Cookiecutter
 template provided by this project.
@@ -77,9 +77,9 @@ simply navigate to a directory where you want to create the new project, then
 run the `cookiecutter` command with a command line argument referencing this
 template.
 
-```console
+.. code-block:: console
 (cc) $ cookiecutter gh:yourusername/cookiecutter-python-project
-```
+
 
 You will be prompted for user input to configure the project. Prompts are the
 keys in 'cookiecutter.json' and default responses are the values.
@@ -87,10 +87,10 @@ keys in 'cookiecutter.json' and default responses are the values.
 Once you have generated your new Python package project, you can exit the
 cookiecutter virtual environment as it is no longer required.
 
-```console
+.. code-block:: console
 (cc) $ deactivate
 $
-```
+
 
 Manual Modifications
 --------------------
@@ -112,7 +112,7 @@ this template. In this scenario, the project is called `data_pipeline`.
 
 After running the cookiecutter command, you might see prompts like this:
 
-```console
+.. code-block:: console
 (ccenv) $ cookiecutter gh:yourusername/cookiecutter-python-project
 project_name [Data Pipeline]: data_pipeline
 project_slug [data_pipeline]: 
@@ -127,7 +127,7 @@ Select dashboard_framework:
 Choose from 1, 2 [1]: 1
 github_username [YourGithubUsername]: datauser
 year [2024]: 
-```
+
 
 The project will be created in the `data_pipeline` directory. You can then navigate to this directory and start customizing your project.
 

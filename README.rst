@@ -60,10 +60,11 @@ virtual environment specifically for cookiecutter and then installing
 cookiecutter using `pip`. The example below shows how to do this.
 
 .. code-block:: console
-$ python -m venv ccvenv --prompt cc
-$ source ccvenv/bin/activate
-(cc) $ pip install pip -U  # update pip to avoid any warnings
-(cc) $ pip install cookiecutter
+
+	$ python -m venv ccvenv --prompt cc
+	$ source ccvenv/bin/activate
+	(cc) $ pip install pip -U  # update pip to avoid any warnings
+	(cc) $ pip install cookiecutter
 
 
 You are now ready to create a new Python project from the Cookiecutter
@@ -78,7 +79,8 @@ run the `cookiecutter` command with a command line argument referencing this
 template.
 
 .. code-block:: console
-(cc) $ cookiecutter gh:yourusername/cookiecutter-python-project
+
+	(cc) $ cookiecutter gh:yourusername/cookiecutter-python-project
 
 
 You will be prompted for user input to configure the project. Prompts are the
@@ -88,8 +90,9 @@ Once you have generated your new Python package project, you can exit the
 cookiecutter virtual environment as it is no longer required.
 
 .. code-block:: console
-(cc) $ deactivate
-$
+
+	(cc) $ deactivate
+	$
 
 
 Manual Modifications
@@ -113,20 +116,21 @@ this template. In this scenario, the project is called `data_pipeline`.
 After running the cookiecutter command, you might see prompts like this:
 
 .. code-block:: console
-(ccenv) $ cookiecutter gh:yourusername/cookiecutter-python-project
-project_name [Data Pipeline]: data_pipeline
-project_slug [data_pipeline]: 
-project_short_description [A data pipeline project]: This is my data pipeline project.
-python_version [3.10]: 
-use_docker [y]: 
-use_airflow [y]: 
-use_dashboard [y]: 
-Select dashboard_framework:
-1 - Streamlit
-2 - Dash
-Choose from 1, 2 [1]: 1
-github_username [YourGithubUsername]: datauser
-year [2024]: 
+
+	(ccenv) $ cookiecutter gh:yourusername/cookiecutter-python-project
+	project_name [Data Pipeline]: data_pipeline
+	project_slug [data_pipeline]: 
+	project_short_description [A data pipeline project]: This is my data pipeline project.
+	python_version [3.10]: 
+	use_docker [y]: 
+	use_airflow [y]: 
+	use_dashboard [y]: 
+	Select dashboard_framework:
+	1 - Streamlit
+	2 - Dash
+	Choose from 1, 2 [1]: 1
+	github_username [YourGithubUsername]: datauser
+	year [2024]: 
 
 
 The project will be created in the `data_pipeline` directory. You can then navigate to this directory and start customizing your project.

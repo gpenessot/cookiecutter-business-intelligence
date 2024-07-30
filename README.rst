@@ -1,8 +1,8 @@
-# Cookiecutter Python Project
-===============
+# Cookiecutter Business Intelligence Project with Python
+########################################################
 
 This project contains a Cookiecutter template that helps you create new Python
-3.7+ package projects by automatically generating most of the boilerplate
+3.10+ package projects by automatically generating most of the boilerplate
 content for you.
 
 Cookiecutter is a command-line utility that creates projects from templates.
@@ -117,7 +117,7 @@ After running the cookiecutter command, you might see prompts like this:
 project_name [Data Pipeline]: data_pipeline
 project_slug [data_pipeline]: 
 project_short_description [A data pipeline project]: This is my data pipeline project.
-python_version [3.9]: 
+python_version [3.10]: 
 use_docker [y]: 
 use_airflow [y]: 
 use_dashboard [y]: 
@@ -126,7 +126,7 @@ Select dashboard_framework:
 2 - Dash
 Choose from 1, 2 [1]: 1
 github_username [YourGithubUsername]: datauser
-year [2023]: 
+year [2024]: 
 ```
 
 The project will be created in the `data_pipeline` directory. You can then navigate to this directory and start customizing your project.

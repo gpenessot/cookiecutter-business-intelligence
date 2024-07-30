@@ -1,0 +1,11 @@
+{
+  "project_name": "Business Intelligence Project",
+  "description": "This template is used in the book Business Intelligence with Python (ENI Editions)",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+  "author": "Gaël Penessot",
+  "email": "gael.penessot@data-decision.io",
+  "github_user_name": "gpenessot",
+  "version": "0.0.1",
+  "license": ["MIT license", "BSD license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"],
+  "year": "{% now 'utc', '%Y' %}",
+}

@@ -1,5 +1,5 @@
 # Cookiecutter Python Project
-###########################
+===============
 
 This project contains a Cookiecutter template that helps you create new Python
 3.7+ package projects by automatically generating most of the boilerplate

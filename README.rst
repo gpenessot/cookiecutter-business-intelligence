@@ -1,4 +1,4 @@
-# Cookiecutter Business Intelligence Project with Python
+Cookiecutter Business Intelligence Project with Python
 ########################################################
 
 This project contains a Cookiecutter template that helps you create new Python

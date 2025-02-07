@@ -7,5 +7,5 @@
   "github_user_name": "gpenessot",
   "version": "0.0.1",
   "license": ["MIT license", "BSD license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"],
-  "year": "{% now 'utc', '%Y' %}",
+  "year": "{% now 'utc', '%Y' %}"
 }
